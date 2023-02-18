@@ -20,6 +20,7 @@ public class FortuneTellerFrame extends JFrame
     private JButton quitButton, newFortuneButton;
     private ActionListener quit = new QuitListener();
     private ActionListener newFortune = new FortuneListener();
+    private int timePressed = 0;
 
     private String[] fortunes =
     {
@@ -99,7 +100,6 @@ public class FortuneTellerFrame extends JFrame
         {
             int i = (int)((Math.random() * (12 - 1)) + 1);
 
-            int timePressed = 0;
             while (i == timePressed)
             {
                 i = (int)((Math.random() * (12 - 1)) + 1);
