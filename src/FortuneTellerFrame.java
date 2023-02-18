@@ -104,7 +104,7 @@ public class FortuneTellerFrame extends JFrame
             {
                 i = (int)((Math.random() * (12 - 1)) + 1);
             }
-            //timePressed = i;
+            timePressed = i;
 
             fortuneTextArea.append(fortunes[i] + "\n");
         }
