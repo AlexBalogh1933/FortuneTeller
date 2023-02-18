@@ -30,7 +30,7 @@ public class FortuneTellerFrame extends JFrame
             "Life is filled with many things, be one that changes the world", // 5
             "Be someone you can be proud of", // 6
             "The end of the world is near", // 7
-            "One does not just reroll to be a new fortune", // 8
+            "Happiness is coming", // 8
             "You favorite team will win next weekend", // 9
             "Life will give you a sign later today", // 10
             "This is the sign", // 11
